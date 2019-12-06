@@ -1,0 +1,95 @@
+info:
+  name: Tyler I. Cecil
+  phone: '+1 (913) 403 - 6230'
+  email: tyler.i.cecil@gmail.com
+  github:
+  website:
+  social:
+
+statement: I want to do things.
+
+# I should have a skills section
+# I should have an interests section
+
+language:
+  - lang: English
+    prof: Native Speaker
+  - lang: German
+    prof: C1.1
+
+education:
+  - school:New Mexico Institute of Mining and Technology
+    degree: BS Mathematics, BS Computer Science
+    date:
+    gpa: 3.5
+  - school: Shawnee Mission East High School
+    degree: American Secondary School
+    date: 20
+    gpa:
+
+other_education:
+  - school: Sprachzentrum, Universitäte Wien
+    program: Intensivkurs Deutsch
+    date: Summer 2018, Summer 2019
+    info: Received state-recognized certificates for German B1/1, B1/2,
+          B2/1, B2/2, C1/1.
+  - school: University of Oregon
+    program: Oregon Programming Language Summer School
+    date: June 2015
+    info: Intensive program on Types, Logic, Semantics, and Verification.
+
+employment:
+  - where: Google
+    position: Software Engineer
+    start: June 2016
+    end: June 2018
+    sum:
+    notes:
+      - Developed end-to-end integration testing software for the Google Cloud
+        Platform.
+      - Worked closely with customers, collecting requirements, and bringing 
+        them into newly developed 
+      - Something about design work
+      - Something about team work
+      - Something about customers
+      - Something about interviewing
+      - Something about team steering
+
+  - where: Institute for Complex Additive Systems Analysis
+    start: June 2014
+    end: April 2016
+    position: Software Engineer
+    sum:
+    notes:
+      - Designed and developed complex simulation software in Java.
+      - Responsible for the design of back-end systems.
+      - Maintenance of a continuous integration, issue tracker, and Scrum
+        process for team.
+      - Selection of tools and libraries for teams.
+      - Presentation of plans, progress, and requirements to clients.
+
+  - where: New Mexico Tech CS Department
+    start: Spring 2012
+    end: April 2016
+    position: Teaching Assistant
+    sum:
+    notes:
+      - Instructed and assisted in programming labs in C and Python
+      - Developed course material.
+      - Attendance of regular team meetings.
+      - Regular grading of assignments.
+      - Maintained a standard of excellence for the Freshmen experience.
+
+  - where: Magdalena Ridge Observatory
+    start: Spring 2013
+    end: June 2014
+    position: Instrumentation Engineer
+    sum:
+    notes:
+      - Developed user-friendly, stable, and extensible control software in
+        Python.
+      - Assisted with debugging of specialized hardware.
+      - Production of low-level software.
+      - Maintenance of Linux device drivers.
+      - Managed mission-critical sub-projects.
+      - Presented in weekly project-status meetings.

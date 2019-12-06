@@ -51,17 +51,34 @@ employment:
     position: Software Engineer
     start: June 2016
     end: June 2018
-    sum:
+    sum: Cloud Test Engineering
     notes:
-      - Developed end-to-end integration testing software for the Google Cloud
-        Platform.
-      - Worked closely with customers, collecting requirements, and bringing 
-        them into newly developed 
-      - Something about design work
-      - Something about team work
-      - Something about customers
-      - Something about interviewing
-      - Something about team steering
+      # This is actually a lot, and may want to consider thinning.
+      - Developed advanced end-to-end integration testing software for Google
+        Cloud Platform's software defined network.
+      - Designed and documented networking-probes for GCP's test deployments.
+      - Worked closely with users, collecting and synthesizing requirements,
+        and on-boarded new customers.
+      - Involved in setting, planning, and measurement of internal team
+        objectives, requirements, and key results.
+      - Interviewed and assessed new candidate software engineers.
+      - Was on on-call rotation, solving, triaging, and escalating issues in
+        real time.
+
+  - where: Los Alamos National Laboratory
+    position: Student Researcher
+    start: Summer 2015
+    end: Summer 2015
+    sum: Programming Models Team, Applied Computer Science Group CCS-7
+    notes:
+      # I'm a little skeptical about what to write here, but LANL is one of my
+      # "big names" here.
+      - Researched existing techniques in low-level parallel semantics.
+      - Implemented \texttt{clang} extension, translating high-level semantics
+        into LLVM IR.
+      - Presented progress and findings to related teams, and provided 
+        documentation.
+      - Suggested future avenues of research.
 
   - where: Institute for Complex Additive Systems Analysis
     start: June 2014
@@ -70,23 +87,26 @@ employment:
     sum:
     notes:
       - Designed and developed complex simulation software in Java.
-      - Responsible for the design of back-end systems.
-      - Maintenance of a continuous integration, issue tracker, and Scrum
-        process for team.
-      - Selection of tools and libraries for teams.
-      - Presentation of plans, progress, and requirements to clients.
+      - Took responsibility for the design of back-end systems.
+      - Maintained a continuous integration, issue tracker, and Scrum process
+        for team.
+      - Presented plans, progress, and requirements to clients.
+    # - Selected tools and libraries for teams.
 
   - where: New Mexico Tech CS Department
     start: Spring 2012
     end: April 2016
     position: Teaching Assistant
-    sum:
+    sum: 
     notes:
       - Instructed and assisted in programming labs in C and Python
       - Developed course material.
-      - Attendance of regular team meetings.
+      - Attended regular team meetings.
       - Regular grading of assignments.
       - Maintained a standard of excellence for the Freshmen experience.
+      - Somethign about managing other TAs and graders
+      - Something about academic honesty
+      - Something abut Student Representative work
 
   - where: Magdalena Ridge Observatory
     start: Spring 2013
@@ -94,6 +114,7 @@ employment:
     position: Instrumentation Engineer
     sum:
     notes:
+      # Should include something about NESSI --- this is actually pub!
       - Developed user-friendly, stable, and extensible control software in
         Python.
       - Assisted with debugging of specialized hardware.

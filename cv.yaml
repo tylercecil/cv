@@ -1,15 +1,12 @@
 info:
-  name: Tyler I. Cecil
+  fname: Tyler I.
+  lname: Cecil
   phone: '+1 (913) 403 - 6230'
   email: tyler.i.cecil@gmail.com
-  github:
-  website:
-  social:
+  github: izzycecil
+  homepage: tylercecil.com
 
 statement: I want to do things.
-
-# I should have a skills section
-# I should have an interests section
 
 language:
   - lang: English

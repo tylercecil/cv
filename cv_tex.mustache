@@ -1,0 +1,57 @@
+{{! Mustache Template }}
+{{! Changing delimiter, as it is hard to read with LaTeX. }}
+{{=<< >>=}}
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+%\moderncvstyle{casual} % Dates left
+%\moderncvstyle{classic}
+
+\moderncvstyle{banking} % Wide. Dates right.
+%\moderncvstyle{oldstyle} % Dates right. Titles above. Good Contact.
+%\moderncvstyle{fancy}
+\moderncvcolor{green}
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{4cm}
+
+<<#info>>
+\name{<<fname>>}{<<lname>>}
+\title{Curriculum Vitae}
+\phone[mobile]{<<phone>>}
+\email{<<email>>}
+\homepage{<<homepage>>}
+% \social[linkedin]{john.doe}
+% \social[github]{<<github>>}
+<</info>>
+
+\begin{document}
+\makecvtitle
+
+\section{Education}
+<<#education>>
+\cventry{<<start>> --- <<end>>}{<<degree>>}{<<school>>}{}{}{}
+<</education>>
+
+\subsection{Additional Education}
+<<#other_education>>
+\cventry{<<date>>}{<<program>>}{<<school>>}{}{}{<<info>>}
+<</other_education>>
+
+\section{Employment}
+<<#employment>>
+%%% <<where>> %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cventry{<<start>> --- <<end>>}
+  {<<where>>}
+  {<<position>>}
+  {}{}{
+    \begin{itemize}
+      <<#notes>>
+      \item <<&.>>
+      <</notes>>
+    \end{itemize}
+  }
+<</employment>>
+
+\end{document}

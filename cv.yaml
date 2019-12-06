@@ -15,21 +15,32 @@ language:
     prof: C1.1
 
 education:
-  - school:New Mexico Institute of Mining and Technology
-    degree: BS Mathematics, BS Computer Science
-    date:
+  - school: New Mexico Institute of Mining and Technology
+    degree: BS Mathematics
+    start: Fall 2011
+    end: Spring 2016
     gpa: 3.5
-  - school: Shawnee Mission East High School
-    degree: American Secondary School
-    date: 20
-    gpa:
+  - school: New Mexico Institute of Mining and Technology
+    degree: BS Computer Science
+    start: Fall 2011
+    end: Spring 2016
+    gpa: 3.5
+# - school: Shawnee Mission East High School
+#   degree: High School Diploma
+#   start: Fall 2005
+#   end: Spring 2011
+#   gpa:
 
 other_education:
   - school: Sprachzentrum, Universitäte Wien
     program: Intensivkurs Deutsch
-    date: Summer 2018, Summer 2019
+    date: Summer 2018
     info: Received state-recognized certificates for German B1/1, B1/2,
-          B2/1, B2/2, C1/1.
+          B2/1.
+  - school: Sprachzentrum, Universitäte Wien
+    program: Intensivkurs Deutsch
+    date: Summer 2019
+    info: Received state-recognized certificates for German B2/2, C1/1.
   - school: University of Oregon
     program: Oregon Programming Language Summer School
     date: June 2015

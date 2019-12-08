@@ -13,25 +13,18 @@
 \usepackage{multicol}
 \setlength{\hintscolumnwidth}{4cm}
 
-\newcommand{\entry}[3]{
-  \textbf{#1} \hfill \textit{#3}\\
-  \textit{#2}\\
-}
-
 <<#info>>
 \name{<<fname>>}{<<lname>>}
 \title{Curriculum Vitae}
 \phone[mobile]{<<phone>>}
 \email{<<email>>}
 \homepage{<<homepage>>}
-% \social[linkedin]{john.doe}
-% \social[github]{<<github>>}
 <</info>>
-% \extrainfo{
-% <<#language>>
-% \cvlanguage{<<lang>>}{<<lvl>>}{}\\
-% <</language>>
-% }
+\extrainfo{
+<<#language>>
+\cvlanguage{<<lang>>}{<<lvl>>}{}
+<</language>>
+}
 
 \begin{document}
 
@@ -39,8 +32,7 @@
 
 \section{Education}
 <<#education>>
-%\cventry{<<start>> --- <<end>>}{<<degree>>}{<<school>>}{}{}{}
-\entry{<<school>>}{<<degree>>}{<<start>> --- <<end>>}
+\cventry{<<start>> --- <<end>>}{<<degree>>}{<<school>>}{}{}{}
 <</education>>
 
 \subsection{Additional Education}
@@ -55,13 +47,11 @@
   {<<position>>}
   {<<where>>}
   {}{}{
-    \begin{adjustwidth}{1em}{1em}
     \begin{itemize}
       <<#notes>>
       \item <<&.>>
       <</notes>>
     \end{itemize}
-    \end{adjustwidth}
   }
 <</employment>>
 

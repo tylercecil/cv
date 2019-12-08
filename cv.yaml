@@ -122,3 +122,40 @@ employment:
       - Maintenance of Linux device drivers.
       - Managed mission-critical sub-projects.
       - Presented in weekly project-status meetings.
+
+student_proj:
+  - name: MORT
+    start: 2014
+    what: Implemented a C89 compiler in C++. Worked in group using continuous
+          integration and test driven development. Implemented a powerful SSA
+          based IR, managed team and work-flow, and used modern C++ design
+          principles.
+  - name: ParaType
+    when: 2014
+    what: Implemented a proof of concept parallel actor model
+          type-monomorphizing in Go. Worked in a group (often pair
+          programming), taking charge of the core algorithm design.
+  - name: ACM Chapter President
+    start: 2013
+    end: 2016
+    what: Increased student membership by almost 700\%. Initiated a student
+          mentorship program, competed in and hosted a number of ACM
+          competitions, organized campus and department events, and helped
+          plan and run weekly meetings.
+  - name: Function Programming Coffee
+    what: Something something something
+
+honors:
+  - what: Elected New Mexico Tech CS Department Student Representative
+    when: 2013, 2014, 2015
+  - what: ACM International Collegiate Programming Competition 10th Place
+          Regional
+    when: 2013
+  - what: New York University's "Computer Security Awareness Month" CTF
+          Finalist
+    when: 2012
+  - what: New York University's "Computer Security Awareness Month" CTF
+          Finalist
+    when: 2011
+  - what: First Robotics Competition (FRC) World Champion Finalist
+    when: 2008

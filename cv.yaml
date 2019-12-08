@@ -65,21 +65,6 @@ employment:
       - Was on on-call rotation, solving, triaging, and escalating issues in
         real time.
 
-  - where: Los Alamos National Laboratory
-    position: Student Researcher
-    start: Summer 2015
-    end: Summer 2015
-    sum: Programming Models Team, Applied Computer Science Group CCS-7
-    notes:
-      # I'm a little skeptical about what to write here, but LANL is one of my
-      # "big names" here.
-      - Researched existing techniques in low-level parallel semantics.
-      - Implemented \texttt{clang} extension, translating high-level semantics
-        into LLVM IR.
-      - Presented progress and findings to related teams, and provided 
-        documentation.
-      - Suggested future avenues of research.
-
   - where: Institute for Complex Additive Systems Analysis
     start: June 2014
     end: April 2016
@@ -93,11 +78,26 @@ employment:
       - Presented plans, progress, and requirements to clients.
     # - Selected tools and libraries for teams.
 
+  - where: Los Alamos National Laboratory
+    position: Student Researcher
+    start: Summer 2015
+    end:
+    sum: Programming Models Team, Applied Computer Science Group CCS-7
+    notes:
+      # I'm a little skeptical about what to write here, but LANL is one of my
+      # "big names" here.
+      - Researched existing techniques in low-level parallel semantics.
+      - Implemented \texttt{clang} extension, translating high-level semantics
+        into LLVM IR.
+      - Presented progress and findings to related teams, and provided
+        documentation.
+      - Suggested future avenues of research.
+
   - where: New Mexico Tech CS Department
     start: Spring 2012
     end: April 2016
     position: Teaching Assistant
-    sum: 
+    sum:
     notes:
       - Instructed and assisted in programming labs in C and Python
       - Developed course material.

@@ -10,9 +10,39 @@ statement: I want to do things.
 
 language:
   - lang: English
-    prof: Native Speaker
+    lvl: Native Speaker
   - lang: German
-    prof: C1.1
+    lvl: C1.1
+
+interests:
+  - Semantics
+  - Logic
+  - Computation Theory
+  - Type Theory
+  - Language Acquisition
+  - German
+  - Grammar
+  - Functional Programming
+  - Category Theory
+  - Public Policy
+  - Public Transportation
+  - Music
+  - Music Composition
+  - Modern Poetry
+  - Education
+  - Applied Linguistics
+  - Rock Climbing
+  - Fitness
+  - Nutrition
+  - Meditation
+  - Orthography
+  - Structure
+  - Social Health
+  - Travel
+  - Cycling
+  - Gastronomy
+  - Coffee
+  - Environmentalism
 
 education:
   - school: New Mexico Institute of Mining and Technology
@@ -76,7 +106,6 @@ employment:
       - Maintained a continuous integration, issue tracker, and Scrum process
         for team.
       - Presented plans, progress, and requirements to clients.
-    # - Selected tools and libraries for teams.
 
   - where: Los Alamos National Laboratory
     position: Student Researcher
@@ -86,9 +115,9 @@ employment:
     notes:
       # I'm a little skeptical about what to write here, but LANL is one of my
       # "big names" here.
-      - Researched existing techniques in low-level parallel semantics.
       - Implemented \texttt{clang} extension, translating high-level semantics
         into LLVM IR.
+      - Researched existing techniques in low-level parallel semantics.
       - Presented progress and findings to related teams, and provided
         documentation.
       - Suggested future avenues of research.
@@ -99,27 +128,25 @@ employment:
     position: Teaching Assistant
     sum:
     notes:
-      - Instructed and assisted in programming labs in C and Python
-      - Developed course material.
-      - Attended regular team meetings.
-      - Regular grading of assignments.
-      - Maintained a standard of excellence for the Freshmen experience.
-      - Somethign about managing other TAs and graders
-      - Something about academic honesty
-      - Something abut Student Representative work
+      - Instructed laboratory course on Compilers.
+      - Instructed programming labs in C and Python.
+      - Prepared, designed, and edited course material, working closely with
+        department designing curriculum.
+      - Managed team of graders and organization of other TAs.
+      - Maintained regular office and tutoring hours.
+    # - Maintained a standard of excellence for the Freshmen experience.
 
   - where: Magdalena Ridge Observatory
     start: Spring 2013
     end: June 2014
     position: Instrumentation Engineer
-    sum:
+    sum: New Mexico Tech Extrasolar Spectroscopic Survey Instrument (NESSI)
     notes:
-      # Should include something about NESSI --- this is actually pub!
-      - Developed user-friendly, stable, and extensible control software in
-        Python.
-      - Assisted with debugging of specialized hardware.
-      - Production of low-level software.
-      - Maintenance of Linux device drivers.
+      - Developed control software for the New Mexico Tech Extrasolar
+        Spectroscopic Survey Instrument (NESSI).
+      - Assured Python code was user-friendly, stable, and extensible
+      - Assisted with debugging of specialized hardware, and production of
+        low-level software and Linux device drivers.
       - Managed mission-critical sub-projects.
       - Presented in weekly project-status meetings.
 
@@ -143,7 +170,9 @@ student_proj:
           competitions, organized campus and department events, and helped
           plan and run weekly meetings.
   - name: Function Programming Coffee
-    what: Something something something
+    what: Helped run a special interest group in the fields of Functional
+          Programming, Type Theory, Logic, and related topics with members of
+          the New Mexico Tech community.
 
 honors:
   - what: Elected New Mexico Tech CS Department Student Representative

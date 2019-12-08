@@ -4,17 +4,19 @@
 
 \documentclass[11pt,a4paper,sans]{moderncv}
 
-%\moderncvstyle{casual} % Dates left
-%\moderncvstyle{classic}
-
 \moderncvstyle{banking} % Wide. Dates right.
-%\moderncvstyle{oldstyle} % Dates right. Titles above. Good Contact.
-%\moderncvstyle{fancy}
-\moderncvcolor{green}
+\moderncvcolor{blue}
 
 \usepackage[utf8]{inputenc}
 \usepackage[scale=0.75]{geometry}
+\usepackage{changepage}
+\usepackage{multicol}
 \setlength{\hintscolumnwidth}{4cm}
+
+\newcommand{\entry}[3]{
+  \textbf{#1} \hfill \textit{#3}\\
+  \textit{#2}\\
+}
 
 <<#info>>
 \name{<<fname>>}{<<lname>>}
@@ -25,13 +27,20 @@
 % \social[linkedin]{john.doe}
 % \social[github]{<<github>>}
 <</info>>
+% \extrainfo{
+% <<#language>>
+% \cvlanguage{<<lang>>}{<<lvl>>}{}\\
+% <</language>>
+% }
 
 \begin{document}
+
 \makecvtitle
 
 \section{Education}
 <<#education>>
-\cventry{<<start>> --- <<end>>}{<<degree>>}{<<school>>}{}{}{}
+%\cventry{<<start>> --- <<end>>}{<<degree>>}{<<school>>}{}{}{}
+\entry{<<school>>}{<<degree>>}{<<start>> --- <<end>>}
 <</education>>
 
 \subsection{Additional Education}
@@ -42,16 +51,30 @@
 \section{Employment}
 <<#employment>>
 %%% <<where>> %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\cventry{<<start>> --- <<end>>}
-  {<<where>>}
+\cventry{<<start>><<#end>> --- <<end>><</end>>}
   {<<position>>}
+  {<<where>>}
   {}{}{
+    \begin{adjustwidth}{1em}{1em}
     \begin{itemize}
       <<#notes>>
       \item <<&.>>
       <</notes>>
     \end{itemize}
+    \end{adjustwidth}
   }
 <</employment>>
+
+\section{Projects}
+<<#student_proj>>
+\cvline{<<name>>}{<<what>>}
+<</student_proj>>
+
+\section{Honors}
+\begin{itemize}
+  <<#honors>>
+  \item <<&what>>.\hfill\emph{<<when>>}
+  <</honors>>
+\end{itemize}
 
 \end{document}

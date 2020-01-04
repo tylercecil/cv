@@ -47,19 +47,26 @@ interests:
 education:
   - school: New Mexico Institute of Mining and Technology
     degree: BS Mathematics
+    # Specific Dates:
+    # August 2011 - May 14th, 2016
     start: Fall 2011
     end: Spring 2016
-    gpa: 3.5
+    gpa: 3.04
   - school: New Mexico Institute of Mining and Technology
     degree: BS Computer Science
+    # Specific Dates:
+    # August 2011 - May 14th, 2016
     start: Fall 2011
     end: Spring 2016
-    gpa: 3.5
-# - school: Shawnee Mission East High School
-#   degree: High School Diploma
-#   start: Fall 2005
-#   end: Spring 2011
-#   gpa:
+    gpa: 3.04
+
+high_school:
+ - school: Shawnee Mission East High School
+   degree: High School Diploma
+   # Specific Dates: Probably August to May.
+   start: Fall 2005
+   end: Spring 2011
+   gpa:
 
 other_education:
   - school: Sprachzentrum, Universitäte Wien

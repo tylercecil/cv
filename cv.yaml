@@ -3,7 +3,7 @@ info:
   lname: Cecil
   phone: '+1 (913) 403 - 6230'
   email: tyler.i.cecil@gmail.com
-  github: izzycecil
+  github: tylercecil
   homepage: tylercecil.com
 
 statement: I want to do things.
@@ -14,6 +14,21 @@ language:
   - lang: German
     lvl: C1.1
 
+references:
+  - name: Dr. Enrique Cauich
+    relation: Manager at Google
+    email: ecauichz@google.com
+  - name: Dr. Subhasish Mazumdar
+    relation: Academic advisor at NMT
+    email: mazumdar@cs.nmt.edu
+  - name: Scott Chadde
+    relation: Professor and Manager at NMT
+    email: scott.chadde@gmail.com
+  - name: Dr. Ramyaa
+    relation: Professor at NMT
+    email: ramyaa@cs.nmt.edu
+
+# I should make this tree structured. Or delete it.
 interests:
   - Semantics
   - Logic
@@ -32,6 +47,8 @@ interests:
   - Education
   - Applied Linguistics
   - Rock Climbing
+  - Backpacking
+  - Hiking
   - Fitness
   - Nutrition
   - Meditation
@@ -160,7 +177,11 @@ employment:
 teaching:
   - name: Proof Theory with Coq
     where: NMT
+    when: Spring 2016
+  - name: Compilers Laboratory (TA)
+    where: NMT
     when: Fall 2016
+  # Should I list labs I otherwise TA'd?
 
 student_proj:
   - name: MORT

@@ -157,6 +157,11 @@ employment:
       - Managed mission-critical sub-projects.
       - Presented in weekly project-status meetings.
 
+teaching:
+  - name: Proof Theory with Coq
+    where: NMT
+    when: Fall 2016
+
 student_proj:
   - name: MORT
     start: 2014

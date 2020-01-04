@@ -1,6 +1,8 @@
-*Requires*
-* [`rubber` LaTeX build system](https://www.systutorials.com/docs/linux/man/1-rubber/)
-* [`mustache` template engine](https://mustache.github.io/)
+`make <target>` to produce a cv/resume file.
 
-*Targets*
+### Requires
+* [`rubber`](https://www.systutorials.com/docs/linux/man/1-rubber/) LaTeX build system
+* [`mustache`](https://mustache.github.io/) template engine
+
+### Build Targets
 * cv.pdf

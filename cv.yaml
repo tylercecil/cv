@@ -179,7 +179,7 @@ teaching:
     num:
     where: NMT
     when: Spring 2016
-  - name: Compilers Laboratory (TA)
+  - name: Compiler Writing (TA)
     num: CSE 423
     where: NMT
     when: Fall 2016
@@ -198,7 +198,7 @@ teaching:
   # Should I list labs I otherwise TA'd?
 
 student_proj:
-  - name: MORT
+  - name: MORT C89 Compiler
     start: 2014
     what: Implemented a C89 compiler in C++. Worked in group using continuous
           integration and test driven development. Implemented a powerful SSA

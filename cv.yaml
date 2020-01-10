@@ -176,11 +176,25 @@ employment:
 
 teaching:
   - name: Proof Theory with Coq
+    num:
     where: NMT
     when: Spring 2016
   - name: Compilers Laboratory (TA)
+    num: CSE 423
     where: NMT
     when: Fall 2016
+  - name: Introduction to Programming (TA)
+    num: CSE 107
+    where: NMT
+    when: Spring 2011 --- Fall 2015
+  - name: Algorithms and Data Structures (TA)
+    num: CSE 122
+    where: NMT
+    when: Spring 2013
+  - name: Introduction to Computer Programming using Python (TA)
+    num: CSE 101
+    where: NMT
+    when: 2013 --- 2015
   # Should I list labs I otherwise TA'd?
 
 student_proj:

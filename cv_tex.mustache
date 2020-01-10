@@ -9,9 +9,13 @@
 \usepackage[scale=0.75]{geometry}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{fontawesome}
+% Adds support for normal quotes, which might be automatically generated.
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
 \usepackage{hyperref}
+% Removes itemseperation for enums.
 \usepackage{enumitem}
-
 \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
 
 \newcommand{\cvcolor}[1]{{\color{MidnightBlue}#1}}

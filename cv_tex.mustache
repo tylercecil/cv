@@ -2,74 +2,103 @@
 {{! Changing delimiter, as it is hard to read with LaTeX. }}
 {{=<< >>=}}
 
-\documentclass[11pt,a4paper,sans]{moderncv}
-
-\moderncvstyle{banking} % Wide. Dates right.
-\moderncvcolor{blue}
+\documentclass[11pt,a4paper,sans]{article}
 
 \usepackage[utf8]{inputenc}
+\usepackage{anyfontsize}
 \usepackage[scale=0.75]{geometry}
-\usepackage{changepage}
-\usepackage{multicol}
-\setlength{\hintscolumnwidth}{4cm}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+\usepackage{enumitem}
 
-<<#info>>
-\name{<<fname>>}{<<lname>>}
-\title{Curriculum Vitae}
-\phone[mobile]{<<phone>>}
-\email{<<email>>}
-\homepage{<<homepage>>}
-<</info>>
-\extrainfo{
-<<#language>>
-\cvlanguage{<<lang>>}{<<lvl>>}{}
-<</language>>
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+\newcommand{\cvcolor}[1]{{\color{MidnightBlue}#1}}
+\renewcommand{\section}[1]{
+  \cvcolor{\noindent \textbf{\LARGE #1}}
+  \vspace{.5em}\\
+}
+\renewcommand{\subsection}[1]{
+  \cvcolor{\noindent \textbf{\Large #1} \dotfill}
+  \vspace{.5em}\\
 }
 
 \begin{document}
+%%%%% TITLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<<#info>>
+\noindent
+\begin{minipage}{0.6\linewidth}
+ {
+ \fontsize{40pt}{50pt}\selectfont
+ \noindent
+ {<<fname>> <<lname>>}}\\
+{\LARGE \color{darkgray} {Curriculum Vitae}}
+\end{minipage}
+\hfill
+\begin{tabular}{|rl}
+  \href{tel:<<phone>>}{<<phone>>}&\cvcolor{\faPhoneSquare} \\
+  \href{mailto:<<email>>}{<<email>>}&\cvcolor{\faEnvelopeSquare} \\
+  \href{<<homepage>>}{<<homepage>>}&\cvcolor{\faGlobe} \\
+  <</info>>
+\end{tabular}
 
-\makecvtitle
+\begin{center}
+   <<#language>>
+   \textbf{<<lang>>} <<lvl>> \hspace{2ex}
+   <</language>>
+\end{center}
+\vspace{0em}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Education}
 <<#education>>
-\cventry{<<start>> --- <<end>>}{<<degree>>}{<<school>>}{}{}{}
+\textbf{<<school>>} \hfill \textit{<<start>> --- <<end>>}\\
+\textit{<<degree>>}\\
 <</education>>
 
 \subsection{Additional Education}
 <<#other_education>>
-\cventry{<<date>>}{<<program>>}{<<school>>}{}{}{<<info>>}
+\textbf{<<school>>} \hfill \textit{<<date>>}\\
+\textit{<<program>>}\\
+<<info>>\\
 <</other_education>>
 
 \section{Employment}
 <<#employment>>
 %%% <<where>> %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\cventry{<<start>><<#end>> --- <<end>><</end>>}
-  {<<position>>}
-  {<<where>>}
-  {}{}{
-    \begin{itemize}
-      <<#notes>>
-      \item <<&.>>
-      <</notes>>
-    \end{itemize}
-  }
+\textbf{<<where>>} \hfill \textit{<<start>><<#end>> --- <<end>><</end>>}\\
+\textit{<<position>>}
+\begin{itemize}
+  <<#notes>>
+  \item <<&.>>
+  <</notes>>
+\end{itemize}
+\vspace{1em}
 <</employment>>
 
 \section{Teaching}
-<<#teaching>>
-\cvline{<<name>>}, <<where>>{<<what>>}
-<</teaching>>
+\vspace{-1em}
+\begin{itemize}[leftmargin=*]
+  <<#teaching>>
+  \item \textbf{<<name>>}, <<where>> \hfill \textit{<<when>>}
+  <</teaching>>
+\end{itemize}
+\vspace{1em}
 
 \section{Projects}
 <<#student_proj>>
-\cvline{<<name>>}{<<when>>}
+\textbf{<<name>>}\hfill \textit{<<when>>}\\
+<<what>>\\
 <</student_proj>>
 
 \section{Honors}
-\begin{itemize}
+\vspace{-1em}
+\begin{itemize}[leftmargin=*]
   <<#honors>>
   \item <<&what>>.\hfill\emph{<<when>>}
   <</honors>>
 \end{itemize}
+\vspace{1em}
 
 \end{document}

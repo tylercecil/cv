@@ -34,9 +34,9 @@ of topics>. Beyond the excitement of being exposed to topics I could never get
 back at my home university, I was taken by the other students. Specifically,
 how we all seemed to have the same set of interests, even outside the subject
 material at hand. Computation theory, type theory, and Programming Languages,
-sure --- but linguistics, philosophy, music. I had never realized that I wasn't
-the only one who saw these fields as all being deeply related (having not yet
-put the word "Logic" as a unifying label).
+sure --- but linguistics, philosophy, and music as well. I had never realized
+that I wasn't the only one who saw these fields as all being deeply related
+(having not yet put the word "Logic" as a unifying label).
 
 After leaving Google, I had some time to myself to spend pursuing lesser-delved
 hobbies, and think about where I saw myself. I had grown deeply disillusioned
@@ -60,9 +60,29 @@ English to software to type theory. Finally, I could articulate my answer: I
 believe education is a fundamental good for society, and that I am uniquely
 qualified to bring my understanding of formal structure to any number of fields.
 
-I then
+I then went out in search of Linguistics departments with strong backgrounds in
+theory, thinking I could bring my unique perspectives there, and knowing I
+enjoyed the topic. It would both be a shift to a more human subject, but staying
+true to my background and talents in more formal and abstract systems. Then,
+one day in the halls of the University of Vienna, I saw a poster for the
+Masters of Logic program, and was immediately taken. Just like the feeling I
+had at OPLSS --- it had never occurred to me that I could, in fact, study in a
+department at the intersection of all of these topics I was drawn towards. This
+program directly embodies what I was already setting out to do.
 
-
+At UvA I would be able to explore these intersections directly. Whats more, the
+strong research focus of the program would set me up well for a potential
+career in academics, my ultimate goal. I wouldn't need to be an outsider in
+a linguistics program with degrees in complete other fields, but could embrace
+my eclectic nature, and apply it to hard interdisciplinary problems. The
+structure of the program is highly individual, putting more emphasis on
+research than rudimentary course work, while offering a uniquely exciting
+course list. And because the program's nature, I can see myself having a wider
+set of options for directions to take my eventual PhD. Prehaps I will find
+myself moving back into computation or proof theory; perhaps deeper into
+linguistics. Either way, MoL will prepare me for where I want to go next. I
+think UvA's Master of Logic program is the perfect place for me to achieve my
+goal of being a steward of knowledge.
 
 <!-- End of freewrite -->
 I am applying to the Master of Logic, with particular interest in

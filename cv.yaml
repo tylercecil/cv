@@ -1,12 +1,12 @@
-info:
+basics:
   fname: Tyler I.
   lname: Cecil
   phone: '+1 (913) 403 - 6230'
   email: tyler.i.cecil@gmail.com
-  github: tylercecil
-  homepage: tylercecil.com
-
-statement: I want to do things.
+  homepage: https://tylercecil.com
+  social:
+    github: tylercecil
+    linkedin: TODO
 
 language:
   - lang: English
@@ -28,77 +28,85 @@ references:
     relation: Professor at NMT
     email: ramyaa@cs.nmt.edu
 
+# This really needs a lot of work.
+skills:
+  tools:
+    - Google Cloud Platform
+    - Matlab / Julia
+    - Git
+    - Unix
+    - Jupyter
+  prog_lang:
+    - C / C++
+    - Go
+    - Haskell
+    - Scheme / Lisp
+    - Python
+    - Java
+  theory:
+    - Type Theory
+    - Probability and Statistics
+    - Linguistics
+    - Automated Theorem Proving
+    - Mathematical Logic
+  other:
+
 # I should make this tree structured. Or delete it.
 interests:
-  - Semantics
-  - Logic
-  - Computation Theory
-  - Type Theory
-  - Language Acquisition
-  - German
-  - Grammar
-  - Functional Programming
-  - Category Theory
-  - Public Policy
-  - Public Transportation
-  - Music
-  - Music Composition
-  - Modern Poetry
-  - Education
-  - Applied Linguistics
-  - Rock Climbing
-  - Backpacking
-  - Hiking
-  - Fitness
-  - Nutrition
-  - Meditation
-  - Orthography
-  - Structure
-  - Social Health
-  - Travel
-  - Cycling
-  - Gastronomy
-  - Coffee
-  - Environmentalism
+  comp_sci:
+    - Computation Theory
+    - Type Theory
+    - Programming Language Theory
+    - Static Analysis
+    - Formal Verification
+  ling:
+    - Formal Semantics
+    - Morphosyntax
+    - Language Preservation and Revitalization
+    - Descriptive Linguistics
+  math:
+  sport:
+  other:
 
 education:
-  - school: New Mexico Institute of Mining and Technology
-    degree: BS Mathematics
-    # Specific Dates:
-    # August 2011 - May 14th, 2016
-    start: Fall 2011
-    end: Spring 2016
-    gpa: 3.04
-  - school: New Mexico Institute of Mining and Technology
-    degree: BS Computer Science
-    # Specific Dates:
-    # August 2011 - May 14th, 2016
-    start: Fall 2011
-    end: Spring 2016
-    gpa: 3.04
+  undergrad:
+    - school: New Mexico Institute of Mining and Technology
+      degree: BS Mathematics
+      # Specific Dates:
+      # August 2011 - May 14th, 2016
+      start: Fall 2011
+      end: Spring 2016
+      gpa: 3.04
+    - school: New Mexico Institute of Mining and Technology
+      degree: BS Computer Science
+      # Specific Dates:
+      # August 2011 - May 14th, 2016
+      start: Fall 2011
+      end: Spring 2016
+      gpa: 3.04
 
-high_school:
- - school: Shawnee Mission East High School
-   degree: High School Diploma
-   # Specific Dates: Probably August to May.
-   start: Fall 2005
-   end: Spring 2011
-   gpa:
-
-other_education:
-  - school: Sprachzentrum, Universitäte Wien
-    program: Intensivkurs Deutsch
-    date: Summer 2018
-    info: Received state-recognized certificates for German B1/1, B1/2,
-          B2/1.
-  - school: Sprachzentrum, Universitäte Wien
-    program: Intensivkurs Deutsch
-    date: Summer 2019
-    info: Received state-recognized certificates for German B2/2, C1/1.
-  - school: University of Oregon
-    program: Oregon Programming Language Summer School
-    date: June 2015
-    info: Intensive program on Types, Logic, Semantics, and Verification.
+  high_school:
+    - school: Shawnee Mission East High School
+      degree: High School Diploma
+      # Specific Dates: Probably August to May.
+      start: Fall 2005
+      end: Spring 2011
+      gpa:
+  german:
+    - school: Sprachzentrum, Universitäte Wien
+      program: Intensivkurs Deutsch
+      date: Summer 2018
+      info: Received state-recognized certificates for German B1/1, B1/2,
+            B2/1.
+    - school: Sprachzentrum, Universitäte Wien
+      program: Intensivkurs Deutsch
+      date: Summer 2019
+      info: Received state-recognized certificates for German B2/2, C1/1.
+  misc:
+    - school: University of Oregon
+      program: Oregon Programming Language Summer School
+      date: June 2015
+      info: Intensive program on Types, Logic, Semantics, and Verification.
 
 employment:
   - where: Google

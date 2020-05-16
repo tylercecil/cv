@@ -1,4 +1,4 @@
-\documentclass[]{article}
+\documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{anyfontsize}
 % Adds support for normal quotes, which might be automatically generated.
@@ -7,6 +7,8 @@
 \MakeOuterQuote{"}
 
 \usepackage[dvipsnames]{xcolor}
+\usepackage{soul} % Underline color control
+\setulcolor{gray}
 \usepackage{hyperref}
 \usepackage{fontawesome}
 \usepackage[scale=0.75, margin=0.75in]{geometry}
@@ -20,8 +22,11 @@
 \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
 
 \newcommand{\cvcolor}[1]{{\color{MidnightBlue}#1}}
-\newcommand{\hl}[1]{\cvcolor{\textbf{#1}}}
-\renewcommand{\cite}[2]{\href{#2}{#1} \footnote{\href{#2}{#2}}}
+\renewcommand{\hl}[1]{\cvcolor{\textbf{#1}}}
+\renewcommand{\cite}[2]{\href{#2}{\ul{#1}} \footnote{\href{#2}{#2}}}
+
+% No page nums
+\pagenumbering{gobble}
 
 \begin{document}
 %%%%% TITLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -43,6 +48,7 @@
   \href{tel:+1 (913) 403 - 6230}{+1 (913) 403 - 6230}&\cvcolor{\faPhone} \\
   \href{mailto:tyler.i.cecil@gmail.com}{tyler.i.cecil@gmail.com}&\cvcolor{\faEnvelope} \\
   \href{https://tylercecil.com}{https://tylercecil.com}&\cvcolor{\faGlobe} \\
+  \href{https://linkedin.com/in/tyler-cecil}{in/tyler-cecil}& \cvcolor{\faLinkedinSquare}\\
 \end{tabular}
 
 \vspace{0.5em}
@@ -56,81 +62,84 @@
 
   I'm a Software Engineer, with a background in Mathematics and a passion for
   Linguistics. Finding a place that engages those three skill sets, while
-  simultaneously pushing forward knowledge \emph{and} improving the lives of
-  others has seemed a pipe-dream. So when I saw the posting for "Applied
-  Research Scientist" at Grammarly, I could hardly believe my eyes. Would it be
-  a transition for me? Yes. Yet I think I may be uniquely suited for Grammarly,
-  and I cant tell Grammarly is perfectly suited for me. \medskip
+  simultaneously pushing forward knowledge and improving lives has seemed a
+  pipe-dream. That's why the posting for "Applied Research Scientist" at
+  Grammarly grabbed me. While a transition on paper, I think I may be uniquely
+  suited for this position. \medskip
 
-  \hl{As an experienced Software Engineer}, I can bring a high level of
-  expertise in writing efficient, maintainable, and testable production-quality
-  code, beyond what a Data Scientist might bring. It's an Engineer who can
-  uniquely bring the "Applied" half of "Applied Research Scientist".
+  % Possible ; Bring engineering, math to aid in ML, with a genuine love of the
+  % problem space.
+  % It's an Engineer who can uniquely bring the "Applied" half of "Applied
+  % Research Scientist".
+  % Explicitly spell out Applied=Engineer, Research Scientist=math
+
+  \hl{As an experienced Software Engineer}, I bring a high level of expertise
+  writing efficient, maintainable, and testable production-quality code, beyond
+  what a Data Scientist might have.
+
   \begin{itemize}
-    \item At Google, I actively identified the need for, designed, and led the
-      development of my projects, rather than ticking-off pre-identified tasks
-      on an issue tracker. This led to my early promotion.
-    \item At the Los Alamos National Laboratory, I designed a compiler
-      extension to enable optimization of the kind of parallel semantics tools
-      like Tensor Flow needs to perform well.
+    \item At Google, I was promoted by my first year; not just for my coding
+      skills, but for my initiative identify the need for, designing, and
+      implementing a critical probe-test framework.
+      % Impact statement
+    \item I thrive in ambiguity; at Los Alamos I was trusted to independently
+      design a novel compiler extension, creating a project direction rather
+      than being given one. The result enabled optimization of the parallel
+      semantics tools like Tensor Flow use.
     \item I can bring both the theoretical understanding of traditional ML
       algorithms such as SVNs, Bayesian Methods, and Nural Networks, as well as
       the low-level understanding of how they run on metal.
-      % \item "Solve problems that haven't been solved before"
+      % Does this belong here, or under math?
   \end{itemize} \medskip
 
-  \hl{Augment that with my background in Mathematics}, and you have someone
-  able to bring a mature understanding of statistics, as well as engage with
-  cutting edge algorithms in ML and NLP.
+  \hl{My background in Mathematics} easily transfers to a mature understanding
+  of statistics, as well as ability to engage with cutting edge algorithms in
+  ML and NLP.
   \begin{itemize}
-    \item \cite{I have experience in statistics}{https://tylercecil.com/posts/}
-      at both a theoretical and applied level.
-    \item At New Mexico Tech I took courses on Probability and Statistics and
-      Linear Algebra, but also Mathematical Modeling, Machine Learning, Data
-      Mining, and Numerical Science.
-    \item At Los Alamost and I.C.A.S.A., I was able to use my mathematical
-      experience to engage in academic research, raising the impact of my work.
-      % Key words "sampling methodologies"
+    \item On my research blog, \cite{I have written on statistics}
+      {https://tylercecil.com/posts/2020-05-10-bessel.html}
+      in both theoretical and applied contexts.
+    \item At Los Alamos and ICASA, I raised the impact of my work with academic
+      research; for example, my investigation in modern Polyhedral
+      Optimizations changed the direction of our compiler extension.
+    \item I'm excited to transfer these skills to cutting-edge NLP, having
+      taken courses on Prob and Stats, Linear Algebra, Modeling, Machine
+      Learning, Data Mining, and Numerical Science.
   \end{itemize} \medskip
 
-  \hl{Finally, it's my Linguistics passion}, which adds a unique dimension
-  to me as a candidate. With a priori domain-specific knowledge of the problem
-  space, I can adapt quicker, identify needs faster, and keep up with field
-  research easier.
+  \hl{Finally, it's my Linguistics passion}, which adds a unique dimension to
+  me as a candidate. With domain-specific knowledge, I can adapt quicker, keep
+  up with field research easier, and make a bigger impact.
   \begin{itemize}
     \item \cite{I write
       often}{https://tylercecil.com/posts/2020-01-19-NPI.html} about Syntax,
-      Morphology, and Semantics, always striving to take complex theories to a
-      more general audience.
-    \item Transformer Models.
-    \item I have basic experience with NLP tools, such as NLTK, and have small-
-      scale experience with Markovian language models.
+      Morphology, and Semantics, striving to communicate complex ideas in
+      simple ways.
+    \item My last two years were spent in the self-study of languages and
+      linguistics; knowledge and experience that can be immediately applied to
+      NLP.
+      % C1 certificates? Textbooks? Where's the proof!
   \end{itemize}\medskip
 
-  I'm aware I might not be a typical applicant for this position. For instance,
-  you may have noticed a two-year gap on my resume; I spent those years cycling
-  across the world, indulging in my passion for languages, and thinking about
-  what direction I want to take myself next. I may not have industry experience
-  with Tensor Flow, Scikit-Learn, XGBoost, or NLP, but I have the background
-  necessary to adapt quickly and contribute effectively.\medskip
+  I am not a traditional applicant for this position; I have an eclectic
+  background, rather than narrow experience with Scikit-Learn or XGBoost.  But
+  there's a reason I want Grammarly, and why Grammarly might want me. I care
+  about making language and communication more accessible to everybody. I can
+  bring more Engineering expertise than your average Data Scientist. I have a
+  stronger Mathematical maturity than your average Engineer. Combine that with
+  my love of Linguistics, and you're left with a unique and strong candidate.
+  \medskip
 
-  I care about making language and communication more accessible to everybody
-  --— Grammarly does that, tearing down the barrier grammar and spelling puts
-  between education, employment, and beyond. I assume I'm different from
-  other Engineers who may apply; there's a reason you want Grammarly &
-  Grammarly might want me. I can bring more Engineering expertise than your
-  average Data Scientist. I have a stronger Mathematical maturity than your
-  average Engineer. Combine that with my love and knowledge of Linguistics,
-  and you're left with a unique and strong option for this position. \medskip
-
-  Of course, if you feel there is another role at Grammarly I would be
-  interested to hear. I can tell you though, this position feels exactly like
-  what I've been looking for. I would love an opportunity to discuss how I
-  might contribute to Grammarly's mission of improving lives by improving
-  communication. Please reach out to me, and we can schedule something!
-  \bigskip
+  % Possibly include "if another position fits"
+  I would love an opportunity to discuss how I might contribute to Grammarly's
+  mission of improving lives by improving communication. Please reach out to
+  me, and we can schedule something!  \bigskip
 
   Thank you for your time!
+
+  \vspace{-0.75em}
+  \includegraphics[height=5\baselineskip]{sig}
+  \vspace{-0.75em}
 
   Tyler Cecil
 \end{adjustwidth}

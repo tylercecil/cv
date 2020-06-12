@@ -1,0 +1,161 @@
+\documentclass[11pt,a4paper,sans]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{anyfontsize}
+\usepackage[scale=0.75, margin=0.75in]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fontawesome}
+% Adds support for normal quotes, which might be automatically generated.
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+\usepackage{hyperref}
+\usepackage{multicol}
+% Removes itemseperation for enums.
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+\newcommand{\cvcolor}[1]{{\color{MidnightBlue}#1}}
+\renewcommand{\section}[1]{
+  \cvcolor{\noindent \textbf{\LARGE #1}}
+  \vspace{.5em}\\
+}
+\renewcommand{\subsection}[1]{
+  \cvcolor{\noindent \textbf{\large #1} \dotfill}
+  \\
+}
+
+% No page nums
+\pagenumbering{gobble}
+
+\begin{document}
+%%%%% TITLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent
+\begin{minipage}{0.675\linewidth}
+ {
+ \fontsize{40pt}{50pt}\selectfont
+ \noindent
+ {Tyler I. Cecil}}\\
+ {\Large \color{darkgray} {
+   \vspace{-0.75em}
+
+   \noindent
+   Software Engineer, with Background in Mathematics
+   and Passion for Linguistics
+ }}
+\end{minipage}
+\hfill
+\begin{tabular}{|rl}
+  \href{tel:+1 (913) 403 - 6230}{+1 (913) 403 - 6230}&\cvcolor{\faPhone} \\
+  \href{mailto:tyler.i.cecil@gmail.com}{tyler.i.cecil@gmail.com}&\cvcolor{\faEnvelope} \\
+  \href{https://tylercecil.com}{https://tylercecil.com}&\cvcolor{\faGlobe} \\
+  English, German & \cvcolor{\faLanguage} \\
+\end{tabular}
+
+\vspace{0.5em}
+\hline
+\vspace{1em}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+\textbf{New Mexico Institute of Mining and Technology} \hfill \textsl{Fall 2011 --- Spring 2016}\\
+\textsl{BS Mathematics, BS Computer Science}\\
+
+\section{Skills}
+\vspace{-2.5em}
+\begin{multicols}{2}
+  \subsection{Languages}
+  Go, C / C++, Python, Haskell, Lisp, Java \ldots
+
+  \subsection{Tools}
+  Unix, Git, Jupyter, NLTK, NumPy/SciPy, Google Cloud Platform, LLVM,
+  Coq \ldots
+
+  \vfill\null
+  \columnbreak
+
+  \subsection{Topics}
+  %Somehow want "Mathematics" and "Linguistics"
+  Linguistics, Software Design \& Testing,
+  Machine Learning, Functional Programming, Compilers \ldots
+
+  \subsection{Other}
+  Adaptability, Public Speaking, Technical Writing, Research, Team Management,
+  Leadership \ldots
+
+\end{multicols}
+
+\vspace{-0.5em}
+\section{Employment}
+%%% Google %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Google} \hfill \textsl{June 2016 --- June 2018}\\
+\textsl{Software Engineer L3, Software Engineer L4}
+\begin{itemize}
+  \item Developed advanced end-to-end tests for Google Cloud Platform's software-defined network.
+  \item Designed, documented, and implemented networking probes for GCP testbeds.
+  \item Designed and implemented framework to allow customer interaction with
+    GCP canary rollout.
+  \item Worked closely with users, collecting and synthesizing requirements,
+    brought in new customers.
+  \item Involved in setting, planning, and assessment of internal
+    team Objectives and Key Results.
+  \item Shared interviewing responsibilities, assessing new candidate software engineers.
+  \item Participated in on-call rotation, solving, triaging, and escalating issues in real time.
+\end{itemize}
+\vspace{0.2em}
+%%% Institute for Complex Additive Systems Analysis %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Institute for Complex Additive Systems Analysis} \hfill \textsl{June 2014 --- April 2016}\\
+\textsl{Software Engineer}
+\begin{itemize}
+  \item Designed and developed complex simulation software in Java, analyzing
+    scientific Big Data in the defense sector.
+  \item Took responsibility for the design and documentation of back-end
+    systems.
+  \item Maintained a continuous integration, issue tracking, and Scrum process
+    for team.
+  \item Presented plans, progress, and requirements to clients.
+\end{itemize}
+\vspace{0.2em}
+%%% Los Alamos National Laboratory %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Los Alamos National Laboratory} \hfill \textsl{Summer 2015}\\
+\textsl{Research Intern}
+\begin{itemize}
+  \item Designed and implemented \texttt{clang} extension, translating HPC semantics into LLVM IR.
+  \item Researched existing techniques in low-level parallel semantics.
+  \item Presented progress and findings to related teams, and provided internal publications.
+  \item Suggested future avenues of research.
+\end{itemize}
+\vspace{0.2em}
+%%% New Mexico Tech CS Department %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{New Mexico Tech CS Department} \hfill \textsl{Spring 2012 --- April 2016}\\
+\textsl{Teaching Assistant}
+\begin{itemize}
+  \item Instructed laboratory courses on Compilers and programming in C and
+    Python.
+  \item Developed and instructed course on Formal Verification and Theorem Proving with Coq.
+  \item Prepared, designed, and edited course material, working closely with
+    faculty on curriculum.
+  \item Managed team of graders and organization of other TAs.
+\end{itemize}
+\vspace{0.5em}
+
+\section{Projects}
+\vspace{-2.5em}
+\begin{multicols}{2}
+
+  \noindent
+  \textbf{Technical Blog}\\
+  Maintain \href{https://tylercecil.com}{tylercecil.com}, a personal research
+  blog, primarily focused on my interests in Linguistics, Mathematical Logic,
+  and Computation Theory.
+
+  \columnbreak
+
+  \noindent
+  \textbf{MORT C89 Compiler}\\
+  Implemented a C89 compiler in C++. Designed powerful SSA based IR,
+  managed team work-flow, and used modern C++ design practices.\\
+
+\end{multicols}
+
+\end{document}

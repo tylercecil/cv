@@ -1,0 +1,149 @@
+\documentclass[sans, a4paper, 11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{anyfontsize}
+% Adds support for normal quotes, which might be automatically generated.
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{soul} % Underline color control
+\setulcolor{gray}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\usepackage[scale=0.75, margin=0.75in]{geometry}
+\usepackage{changepage}
+\usepackage{graphicx}
+
+\setlength{\parindent}{0pt} % Remove paragraph indent
+
+% Removes itemseperation for enums.
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+\newcommand{\cvcolor}[1]{{\color{MidnightBlue}#1}}
+\renewcommand{\hl}[1]{\cvcolor{\textbf{#1}}}
+\renewcommand{\cite}[2]{\href{#2}{\ul{#1}} \footnote{\href{#2}{#2}}}
+
+% No page nums
+\pagenumbering{gobble}
+
+\begin{document}
+%%%%% TITLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent
+\begin{minipage}{0.6\linewidth}
+ {
+ \fontsize{40pt}{50pt}\selectfont
+ \noindent
+ {Tyler I. Cecil}}\\
+ {\Large \color{darkgray} {
+   \vspace{-0.75em}
+
+   \noindent
+   For the position of "Senior Software Engineer" in Platforms at 10x Genomis
+ }}
+\end{minipage}
+\hfill
+{
+\begin{tabular}{|rl}
+  \href{tel:+1 (913) 403 - 6230}{+1 (913) 403 - 6230}&\cvcolor{\faPhone} \\
+  \href{mailto:tyler.i.cecil@gmail.com}{tyler.i.cecil@gmail.com}&\cvcolor{\faEnvelope} \\
+  \href{https://tylercecil.com}{https://tylercecil.com}&\cvcolor{\faGlobe} \\
+  \href{https://linkedin.com/in/tyler-cecil}{in/tyler-cecil}& \cvcolor{\faLinkedinSquare}\\
+\end{tabular}
+}
+
+\vspace{0.5em}
+\hline
+\vspace{2em}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{adjustwidth}{40pt}{40pt}
+
+  To the 10x Genomics Hiring Staff \par \bigskip
+
+  I'm an experienced Software Engineer with an eclectic background, and I've
+  been on the hunt for a position where I can use my skills to directly and
+  actively improve the lives of others. The work being done at 10x Genomics, I
+  think, does exactly that. \textbf{talk about the fit} \medskip
+
+  % Software engineer with experience. Indeed, I don't have experience in
+  % biology, but am extremely comfortable in multi-disciplinary envioronments,
+  % and have worked at observatories and national labratories, used to
+  % collaborating, supporting scientists. As a developer, I am known for my
+  % sense of design and detail, highly tuned towards the bigger picture.  The
+  % imapct I think this has is maintainability, scalability, and some third
+  % thing. \medskip
+
+  \hl{As an experienced Software Engineer}, I bring a high level of expertise
+  in writing efficient, maintainable, and testable production-quality code
+
+  \begin{itemize}
+
+    \item Developing test frameworks for the massive-scale Google Cloud
+      Platform involved complex parallel architectures, collaboration with
+      dozens of domain-specific teams, and insight into end-user use cases.
+
+    \item My experience with Compilers, touches a wide set of topics in
+      computer science. I can apply both theoretical understanding of
+      algorithms, as well as low-level understanding of how they run on metal.
+
+    \item Functional Programming was an early specializations of mine, which
+      I've translated to a stack-independent appreciation for the craft of
+      software.
+
+  \end{itemzie}\smallskip
+
+  \hl{My sense of Design and Initiative} have defined me and my work, beyond
+  just technical skills. By independently identifying problems, leading project
+  directions, and communicating across teams, and I've provided a consistently
+  high-impact.
+
+  \begin{itemize}
+
+    \item At Google, my initiative in identifying the need for, designing, and
+      implementing a critical probe-test framework (as well as my coding
+      skills) earned me a promotion before my first year.
+
+    \item I thrive in ambiguity. At Los Alamos I was trusted to independently
+      design a novel compiler extension, creating a project direction rather
+      than being given one.
+
+    \item While an undergraduate, I designed much of the curriculum for first
+      and second year CS students, served as ACM chapter president, and even
+      took it upon myself to teach courses on Formal Verification and Type
+      Theory when non were offered.
+
+  \end{itemize}\smallskip
+
+
+  \hl{With a multidisciplinary background}, having studied both Mathematics and
+  Linguistics, I'm comfortable in highly-collaborative, learning-oriented
+  settings, and often find ways to bring seemingly unrelated skills together.
+
+  \begin{itemize}
+
+    \item At Los Alamos and ICASA, I raised the impact of our team's work via
+      academic research; for example, my investigations in Polyhedral
+      Optimizations changed the direction of our compiler extension.
+
+    \item I actively maintain a research blog, \url{tylercecil.com}, where I
+      write on Linguistics, Mathematical Logic, and Computation, striving to
+      communicate complex ideas in simple ways.
+
+  \end{itemize} \medskip
+
+  I would love an opportunity to discuss how I might contribute to 10x
+  Genomics' mission to accelerate the mastery of biology to advance human
+  health. Please reach out to me, and we can schedule a call!  \bigskip
+
+  Thank you so much for your time.
+
+  \vspace{-0.5em}
+  \includegraphics[height=5\baselineskip]{sig}
+  \vspace{-0.5em}
+
+  Tyler Cecil
+\end{adjustwidth}
+
+\end{document}

@@ -8,5 +8,5 @@
 * cv.pdf
 
 ### Todo
-[] YAML schema validator?
-[] Look into json-resume, as a possible validator
+- [ ] YAML schema validator?
+- [ ] Look into json-resume, as a possible validator

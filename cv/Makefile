@@ -1,3 +1,5 @@
+PDF_VIEWER := okular
+
 all: cv.pdf
 
 cv.pdf: cv.tex
@@ -7,9 +9,11 @@ cv.tex: cv.yaml cv_template.tex
 	mustache $^ > $@
 
 watch:
+	make all
+	$(PDF_VIEWER) cv.pdf&
 	while true; do \
 		make all; \
-		inotifywait -qre close_write cv.yaml cv_tex.mustache; \
+		inotifywait -qre close_write ./; \
 	done
 
 clean:

@@ -3,7 +3,7 @@ all: cv.pdf
 cv.pdf: cv.tex
 	rubber --pdf cv.tex
 
-cv.tex: cv.yaml cv_tex.mustache
+cv.tex: cv.yaml cv_template.tex
 	mustache $^ > $@
 
 watch:

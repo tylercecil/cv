@@ -28,45 +28,6 @@ references:
     relation: Professor at NMT
     email: ramyaa@cs.nmt.edu
 
-# This really needs a lot of work.
-skills:
-  tools:
-    - Google Cloud Platform
-    - Matlab / Julia
-    - Git
-    - Unix
-    - Jupyter
-  prog_lang:
-    - C / C++
-    - Go
-    - Haskell
-    - Scheme / Lisp
-    - Python
-    - Java
-  theory:
-    - Type Theory
-    - Probability and Statistics
-    - Linguistics
-    - Automated Theorem Proving
-    - Mathematical Logic
-  other:
-
-# I should make this tree structured. Or delete it.
-interests:
-  comp_sci:
-    - Computation Theory
-    - Type Theory
-    - Programming Language Theory
-    - Static Analysis
-    - Formal Verification
-  ling:
-    - Formal Semantics
-    - Morphosyntax
-    - Language Preservation and Revitalization
-    - Descriptive Linguistics
-  math:
-  sport:
-  other:
 
 education:
   undergrad:
@@ -243,3 +204,44 @@ honors:
     when: 2011
   - what: First Robotics Competition (FRC) World Champion Finalist
     when: 2008
+
+# I have dreams of a skills / interests section. But for now, not necessary
+# ###
+# skills:
+#   tools:
+#     - Google Cloud Platform
+#     - Matlab / Julia
+#     - Git
+#     - Unix
+#     - Jupyter
+#   prog_lang:
+#     - C / C++
+#     - Go
+#     - Haskell
+#     - Scheme / Lisp
+#     - Python
+#     - Java
+#   theory:
+#     - Type Theory
+#     - Probability and Statistics
+#     - Linguistics
+#     - Automated Theorem Proving
+#     - Mathematical Logic
+#   other:
+#
+# # I should make this tree structured. Or delete it.
+# interests:
+#   comp_sci:
+#     - Computation Theory
+#     - Type Theory
+#     - Programming Language Theory
+#     - Static Analysis
+#     - Formal Verification
+#   ling:
+#     - Formal Semantics
+#     - Morphosyntax
+#     - Language Preservation and Revitalization
+#     - Descriptive Linguistics
+#   math:
+#   sport:
+#   other:

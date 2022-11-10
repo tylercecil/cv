@@ -71,6 +71,25 @@ education:
 
 employment:
   - where: Google
+    position: Technical Lead, Software Engineer
+    start: April 2020
+    end: March 2022
+    sum: Kernel Release Velocity
+    notes:
+      - Led a team releasing Linux kernels for Google Cloud Platform's
+        virtualization hosts.
+      - Reduced and stabilized kernel release cadence from 1.5 releases per
+        year to 1 release per month.
+      - Managed junior developers, setting tasks and expectations, as well as
+        providing mentorship.
+      - Set cross-team technical direction, writing and tracking OKRs for
+        multi-year efforts in kernel virualization space.
+      - Implemented automation tools for kernel test, release, and health
+        monitoring, including a large-scale integration test-bed for all of
+        GCP.
+      - Investigated root problems in virtualization space with large-scale
+        developer user-study.
+  - where: Google
     position: Software Engineer
     start: June 2016
     end: June 2018

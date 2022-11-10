@@ -95,13 +95,13 @@ education:
   german:
     - school: Sprachzentrum, Universitäte Wien
       program: Intensivkurs Deutsch
+      date: Summer 2019
+      info: Received state-recognized certificates for German B2/2, C1/1.
+    - school: Sprachzentrum, Universitäte Wien
+      program: Intensivkurs Deutsch
       date: Summer 2018
       info: Received state-recognized certificates for German B1/1, B1/2,
             B2/1.
-    - school: Sprachzentrum, Universitäte Wien
-      program: Intensivkurs Deutsch
-      date: Summer 2019
-      info: Received state-recognized certificates for German B2/2, C1/1.
   misc:
     - school: University of Oregon
       program: Oregon Programming Language Summer School
@@ -205,7 +205,14 @@ teaching:
     when: 2013 --- 2015
   # Should I list labs I otherwise TA'd?
 
-student_proj:
+projects:
+  - name: ACM Chapter President
+    start: 2013
+    end: 2016
+    what: Increased student membership by almost 700\%. Initiated a student
+          mentorship program, competed in and hosted a number of ACM
+          competitions, organized campus and department events, and helped
+          plan and run weekly meetings.
   - name: MORT C89 Compiler
     start: 2014
     what: Implemented a C89 compiler in C++. Worked in group using continuous
@@ -217,13 +224,6 @@ student_proj:
     what: Implemented a proof of concept parallel actor model
           type-monomorphizing in Go. Worked in a group (often pair
           programming), taking charge of the core algorithm design.
-  - name: ACM Chapter President
-    start: 2013
-    end: 2016
-    what: Increased student membership by almost 700\%. Initiated a student
-          mentorship program, competed in and hosted a number of ACM
-          competitions, organized campus and department events, and helped
-          plan and run weekly meetings.
   - name: Function Programming Coffee
     what: Co-ran a special interest group in the fields of Functional
           Programming, Type Theory, Logic, and related topics with members of

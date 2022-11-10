@@ -1,5 +1,5 @@
 # Ignore build targets
-cv.pdf
+*.pdf
 cv.tex
 
 # Created by https://www.gitignore.io/api/latex

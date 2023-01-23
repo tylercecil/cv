@@ -113,12 +113,24 @@ education:
 
 employment:
   - where: Google
+    position: Senior Software Engineer
+    start: August 2020
+    end: April 2022
+    sum: Kernel Release Velocity
+    notes:
+      - Technical lead on "Linux Kernel Release Velocity" for the Google Cloud
+        Platform.
+      - Designed and implemented end-to-end test-and-release pipeline for
+        host kernel updates.
+      - Managed small team of developers, setting technical direction.
+      - Directly mentored junior developers, setting expectations, tracking
+        progress, and providing auxiliary support.
+  - where: Google
     position: Software Engineer
     start: June 2016
     end: June 2018
     sum: Cloud Test Engineering
     notes:
-      # This is actually a lot, and may want to consider thinning.
       - Developed advanced end-to-end integration testing software for Google
         Cloud Platform's software defined network.
       - Designed and documented networking-probes for GCP's test deployments.

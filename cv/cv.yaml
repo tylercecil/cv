@@ -53,7 +53,12 @@ education:
       start: Fall 2005
       end: Spring 2011
       gpa:
-  german:
+
+  misc:
+    - school: University of Washington
+      program: Department of Linguistics
+      date: September 2020
+      info: Audited graduate courses in Linguistics department.
     - school: Sprachzentrum, Universitäte Wien
       program: Intensivkurs Deutsch
       date: Summer 2019
@@ -63,7 +68,6 @@ education:
       date: Summer 2018
       info: Received state-recognized certificates for German B1/1, B1/2,
             B2/1.
-  misc:
     - school: University of Oregon
       program: Oregon Programming Language Summer School
       date: June 2015
@@ -95,7 +99,6 @@ employment:
     end: June 2018
     sum: Cloud Test Engineering
     notes:
-      # This is actually a lot, and may want to consider thinning.
       - Developed advanced end-to-end integration testing software for Google
         Cloud Platform's software defined network.
       - Designed and documented networking-probes for GCP's test deployments.

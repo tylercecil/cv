@@ -1,4 +1,4 @@
-PDF_VIEWER := okular
+PDF_VIEWER := zathura
 
 all: cv.pdf
 

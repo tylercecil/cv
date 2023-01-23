@@ -92,17 +92,20 @@ education:
       start: Fall 2005
       end: Spring 2011
       gpa:
-  german:
+  misc:
+    - school: University of Washington
+      program: Department of Linguistics
+      date: September 2020
+      info: Audited graduate courses in Linguistics department.
+    - school: Sprachzentrum, Universitäte Wien
+      program: Intensivkurs Deutsch
+      date: Summer 2019
+      info: Received state-recognized certificates for German B2/2, C1/1.
     - school: Sprachzentrum, Universitäte Wien
       program: Intensivkurs Deutsch
       date: Summer 2018
       info: Received state-recognized certificates for German B1/1, B1/2,
             B2/1.
-    - school: Sprachzentrum, Universitäte Wien
-      program: Intensivkurs Deutsch
-      date: Summer 2019
-      info: Received state-recognized certificates for German B2/2, C1/1.
-  misc:
     - school: University of Oregon
       program: Oregon Programming Language Summer School
       date: June 2015

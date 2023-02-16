@@ -14,4 +14,4 @@ watch:
 	done
 
 clean:
-	rubber --clean cv.tex
+	rubber --clean cover.tex

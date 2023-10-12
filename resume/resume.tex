@@ -1,18 +1,20 @@
 \documentclass{tc_cv}
 
+\newcommand{\jobSpace}{\vspace{0.75em}}
+
 \begin{document}
 \makeheader{Senior Engineer, Ex-Googler, Pivoting to Climate}
 
 \begin{minipage}[t]{0.3\linewidth}
   \emphtext{Senior Engineer,\\
-  known for leadership and technical abilities, pivoting
-  to the environment.
+  \indent\indent known for leadership and technical expertise,
+  looking to impacts the environment.
   }
 
   \vspace{2em}
   \section{Education}
   \company{New Mexico Institute \\ of Technology}\\
-  \date{Fall 2011 --- Spring 2016}\\
+  \date{Fall 2011 --- Spring 2016}\vspace{0.25em}\\
   \faGraduationCap \hspace{1ex} B.S. Mathematics\\
   \faGraduationCap \hspace{1ex} B.S. Computer Science
 
@@ -57,12 +59,12 @@
   \section{Personal Projects}
   \textbf{Research Blog}\\
   Maintain \href{https://tylercecil.com}{tylercecil.com}, a personal blog on
-  Mathematics, Data Science, and Linguistics.
+  Mathematics, Data Science, and other academic interests.
+  \vspace{0.25em}
 
   \textbf{Interests}\\
-  Actively engaged in numerous interests, including
-  Rock climbing, cycling, backpacking, language learning, music,
-  environmentalism
+  Actively engaged outdoors, rock climbing, backpacking, and bikepacking. When
+  inside, I play music, learn languages, and advocate for local cycling policy.
 
 \end{minipage}
 \hfill\vline\hfill
@@ -72,63 +74,63 @@
     {April 2020 --- March 2022}
     {Senior Software Engineer, Technical Lead}
     % Wishlist:
-    %  - "go-to person"
-    %  - "technical expert"
+    %  - "go-to person" or "technical expert"
     %  - Python & SQL
     %  - Data
-    \item Headed team developing and releasing Linux kernels for Google Cloud
-      Platform's virtualization hosts.
-    \item Reduced and stabilized kernel release cadence yearly to monthly by
-      introducing automated roll-out pipeline.
+    \item Headed team releasing Linux kernels for Google Cloud Platform's
+      virtualization hosts, working with low-level kernel and platform code,
+      and high-level data analysis and release tools.
+    \item Reduced average release cadence from over a year to under a monthly
+      by building a bespoke automated release management tool for the unique
+      requirements of host-code.
     \item Set cross-team technical direction, writing and tracking OKRs for
-      multi-year efforts in kernel virualization space.
+      multiple multi-year efforts in kernel virualization space.
     \item Managed junior developers, setting tasks and expectations, as well as
       providing mentorship.
   \end{job}
-  \vspace{1em}
+  \jobSpace
   \begin{job}{Google}
     {June 2016 --- June 2018}
     {Software Engineer}
-    \item Implemented and maintained critical at-scale tools for GCP
-      networking layer, serving as go-to domain expert.
-    \item Designed, documented, and implemented GCPs network probing strategy,
-      providing high customer stability.
-    \item Worked closely with users, collecting and synthesizing requirements,
-      and on-boarded new customers.
-    \item Took on team responsibilities, including interviewing, serving in
-      on-call rotation, and developing team OKRs.
+  \item Created critical tools for GCP's networking layer: notably a scaled
+    net-probe framework in Go, ensuring network stability.
+  \item Contributed to a project allowing customers to opt-in to GCP's bleeding
+    edge, modifying a complex microservice architecture, and working closely
+    with users while on-boarding.
+  \item Took on general team responsibilities, including interviewing, on-call
+    rotation, and planning team OKRs.
   \end{job}
-  \vspace{1em}
+  \jobSpace
   \begin{job}{Institute for Complex \\ Additive Systems Analysis}
     {June 2014 --- April 2016}
     {Software Engineer}
-    \item Designed and developed large-scale data model for apps containing
-      classified info, using selective encryption.
-    \item Lead back-end system developer for simulation software.
-    \item Communicated directly to clients, presenting plans, progress, and
-      building requirements.
+    \item Developed data model for Java apps containing classified info,
+      using partial encryption and replacing JVM object serialization.
+    \item Introduced continuous integration system, modern version control, and
+      Agile methodologies to the institute.
+    \item Built requirements and project timeline directly with clients.
   \end{job}
-  \vspace{1em}
+  \jobSpace
   \begin{job}{Los Alamos National Laboratory}
     {Summer 2015}
     {Researcher Intern}
-    \item Implemented \texttt{clang} extension, translating high-level parallel
-      semantics into a low-level IR.
-    \item Reported progress, findings, and related research in internal
-      laboratory publications.
+    \item Designed LLVM extension, translating high-level parallel semantics
+      in C++ to a low-level IR for HPC applications.
+    \item Published findings and related research in internal laboratory
+      communications, bringing future developers up to speed.
   \end{job}
-  \vspace{1em}
+  \jobSpace
   \begin{job}{Magdalena Ridge \\ Observatory}
     {Spring 2013 --- June 2014}
     {Instrumentation Engineer}
-    \item Developed control software in Python for use in an astrophysics lab
-      and observatory.
-    \item Worked in a highly multi-disciplinary environment, requiring
-      flexibility and quick-learning.
-    \item Tasked with communicating software progress and constraints to a
-      non-technical audience
+    \item Implemented control and analysis software in Python for
+      \href{https://noirlab.edu/public/programs/kitt-peak-national-observatory/wiyn-35m-telescope/nessi/}{NESSI},
+      an astrophysics spectroscopy instrument.
+    \item Scope included Linux drivers for imaging and motor hardware, a Python
+      GUI, and image analysis tools using SciTools.
+    \item Highly multidisciplinary, requiring quick-learning, and communicating
+      progress and constraints to non-software audience.
   \end{job}
-  \vspace{1em}
 \end{minipage}
 
 \end{document}

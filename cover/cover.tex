@@ -1,67 +1,8 @@
-\documentclass[sans, a4paper, 11pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{anyfontsize}
-% Adds support for normal quotes, which might be automatically generated.
-\usepackage [english]{babel}
-\usepackage [autostyle, english = american]{csquotes}
-\MakeOuterQuote{"}
-
-\usepackage[dvipsnames]{xcolor}
-\usepackage{soul} % Underline color control
-\setulcolor{gray}
-\usepackage{hyperref}
-\usepackage{fontawesome}
-\usepackage[scale=0.75, margin=0.75in]{geometry}
+\documentclass{tc_cv}
 \usepackage{changepage}
-\usepackage{graphicx}
-
-\setlength{\parindent}{0pt} % Remove paragraph indent
-
-% Removes itemseperation for enums.
-\usepackage{enumitem}
-\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
-
-\newcommand{\cvcolor}[1]{{\color{MidnightBlue}#1}}
-\renewcommand{\hl}[1]{\cvcolor{\textbf{#1}}}
-\renewcommand{\cite}[2]{\href{#2}{\ul{#1}} \footnote{\href{#2}{#2}}}
-
-% No page nums
-\pagenumbering{gobble}
 
 \begin{document}
-%%%%% TITLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent
-\begin{minipage}{0.675\linewidth}
-  % \vspace{0.5em}
-  {
-    \fontsize{40pt}{50pt}\selectfont
-    \noindent
-    Tyler I. Cecil
-  }\\
-  {\Large \color{darkgray}
-    {
-      \fontsize{16pt}{20pt}\selectfont
-      \noindent
-      For the position of "POSITION" at COMPANY
-    }
-  }
-\end{minipage}
-\hfill
-{
-  \fontsize{10pt}{13pt}\selectfont
-  \begin{tabular}{|rl}
-    \href{tel:+1 (913) 403 - 6230}{+1 (913) 403 - 6230}&\cvcolor{\faPhone} \\
-    \href{mailto:tyler.i.cecil@gmail.com}{tyler.i.cecil@gmail.com}&\cvcolor{\faEnvelope} \\
-    \href{https://www.linkedin.com/in/tyler-cecil/}{in/tyler-cecil}&\cvcolor{\faLinkedinSquare} \\
-    \href{https://tylercecil.com}{https://tylercecil.com}&\cvcolor{\faGlobe} \\
-    % English, German & \cvcolor{\faLanguage} \\
-  \end{tabular}
-  }
-
-\vspace{0.5em}
-\noindent\hrulefill
-\vspace{1em}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeheader{For the position of "Senior Software Engineer" at Zitara}
 
 \begin{adjustwidth}{40pt}{40pt}
 

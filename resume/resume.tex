@@ -1,80 +1,23 @@
-\documentclass[11pt,a4paper,sans]{article}
-
-\usepackage[utf8]{inputenc}
-\usepackage{anyfontsize}
-\usepackage[scale=0.75, margin=0.75in]{geometry}
-\usepackage[dvipsnames]{xcolor}
-\usepackage{fontawesome}
-% Adds support for normal quotes, which might be automatically generated.
-\usepackage [english]{babel}
-\usepackage [autostyle, english = american]{csquotes}
-\MakeOuterQuote{"}
-\usepackage{hyperref}
-\usepackage{multicol}
-% Removes itemseperation for enums.
-\usepackage{enumitem}
-\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt,label=$\circ$}
-
-\newcommand{\cvcolor}[1]{{\color{MidnightBlue}#1}}
-\renewcommand{\section}[1]{
-  \cvcolor{\noindent \textbf{\LARGE #1}}
-  \vspace{.5em}\\
-}
-\renewcommand{\subsection}[1]{
-  \cvcolor{\noindent \textbf{\large #1} \dotfill}
-  \\
-}
-
-% No page nums
-\pagenumbering{gobble}
+\documentclass{tc_cv}
 
 \begin{document}
-%%%%% TITLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent
-\begin{minipage}{0.675\linewidth}
-  \vspace{1em}
-  {
-    \fontsize{45pt}{50pt}\selectfont
-    \noindent
-    Tyler I. Cecil
-  }\
-\end{minipage}
-\hfill
-{
-  \fontsize{10pt}{13pt}\selectfont
-  \begin{tabular}{rl}
-    \href{tel:+1 (913) 403 - 6230}{+1 (913) 403 - 6230}&\cvcolor{\faPhone} \\
-    \href{mailto:tyler.i.cecil@gmail.com}{tyler.i.cecil@gmail.com}&\cvcolor{\faEnvelope} \\
-    \href{https://www.linkedin.com/in/tyler-cecil/}{in/tyler-cecil}&\cvcolor{\faLinkedinSquare} \\
-    \href{https://tylercecil.com}{https://tylercecil.com}&\cvcolor{\faGlobe} \\
-    % English, German & \cvcolor{\faLanguage} \\
-  \end{tabular}
-  }
-
-\vspace{0.25em}
-\noindent\hrulefill
-% \vspace{1em}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeheader{Senior Engineer, Ex-Googler, Pivoting to Climate}
 
 \begin{minipage}[t]{0.3\linewidth}
 
-  {\color{darkgray}
-    {
-      \fontsize{18pt}{20pt}\selectfont
-      \noindent
-      Senior Engineer,\\
-      known for leadership and technical abilities, pivoting
-      to the environment.
-    }
+  \emphtext{Senior Engineer,\\
+    known for leadership and technical abilities, pivoting
+    to the environment.
   }
-  \vspace{1em}
 
+\vspace{2em}
 \section{Education}
 \textbf{New Mexico Institute \\ of Technology}\\
 \textsl{Fall 2011 --- Spring 2016}\\
   \faGraduationCap \hspace{1ex} B.S. Mathematics\\
-  \faGraduationCap \hspace{1ex} B.S. Computer Science\\
+  \faGraduationCap \hspace{1ex} B.S. Computer Science
 
+\vspace{2em}
 \section{Skills}
 \subsection{Languages}
 Python,
@@ -111,7 +54,7 @@ Project Planning,
 Prioritization,
 \ldots
 
-\vspace{1em}
+\vspace{2em}
 \section{Personal Projects}
 \textbf{Research Blog}\\
 Maintain \href{https://tylercecil.com}{tylercecil.com}, a personal blog on

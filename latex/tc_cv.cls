@@ -46,6 +46,22 @@
   }
 
 \renewcommand{\cite}[2]{\href{#2}{\ul{#1}} \footnote{\href{#2}{#2}}}
+\renewcommand{\date}[1]{\textsl{#1}}
+\newcommand{\company}[1]{\textbf{#1}}
+\newcommand{\position}[1]{\textsl{#1}}
+\newcommand{\jobHeader}[3]{
+  \company{#1} \hfill \date{#2}\\
+  \position{#3}
+}
+\newenvironment{job}[3]
+  {
+  \jobHeader{#1}{#2}{#3}
+  \begin{itemize}
+  }
+  {
+  \end{itemize}
+  }
+
 \renewcommand{\section}[1]{
   \cvcolor{\noindent \textbf{\LARGE #1}}
   \vspace{.5em}\\
@@ -75,7 +91,7 @@
     \fontsize{10pt}{13pt}\selectfont
     \begin{tabular}{rl}
       \color{Dim}
-      \href{tel:+1 (913) 403 - 6230}{+1 (913) 403 - 6230}            &\cvcolor{\faPhone} \\
+      \href{tel:+1 (913) 403 - 6230}{\oldstylenums{+1 (913) 403 - 6230}}            &\cvcolor{\faPhone} \\
       \color{Dim}
       \href{mailto:tyler.i.cecil@gmail.com}{tyler.i.cecil@gmail.com} &\cvcolor{\faEnvelope} \\
       \color{Dim}

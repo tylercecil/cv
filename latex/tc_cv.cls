@@ -29,6 +29,7 @@
 \RequirePackage[T1]{fontenc}
 % \RequirePackage{gillius}
 \RequirePackage{CormorantGaramond}
+\usepackage{inconsolata}
 
 % Color Pallet
 \definecolor{HL}{HTML}{2F7289}

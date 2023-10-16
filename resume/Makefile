@@ -2,7 +2,7 @@ PDF_VIEWER := zathura
 
 all: resume.pdf
 
-resume.pdf: resume.tex
+resume.pdf: resume.tex tc_cv.cls
 	rubber --pdf resume.tex
 
 watch:
@@ -10,7 +10,7 @@ watch:
 	$(PDF_VIEWER) resume.pdf&
 	while true; do \
 		make all; \
-		inotifywait -qre close_write ./; \
+		inotifywait -qre close_write ../; \
 	done
 
 clean:

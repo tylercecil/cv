@@ -1,67 +1,8 @@
-\documentclass[sans, a4paper, 11pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{anyfontsize}
-% Adds support for normal quotes, which might be automatically generated.
-\usepackage [english]{babel}
-\usepackage [autostyle, english = american]{csquotes}
-\MakeOuterQuote{"}
-
-\usepackage[dvipsnames]{xcolor}
-\usepackage{soul} % Underline color control
-\setulcolor{gray}
-\usepackage{hyperref}
-\usepackage{fontawesome}
-\usepackage[scale=0.75, margin=0.75in]{geometry}
+\documentclass{tc_cv}
 \usepackage{changepage}
-\usepackage{graphicx}
-
-\setlength{\parindent}{0pt} % Remove paragraph indent
-
-% Removes itemseperation for enums.
-\usepackage{enumitem}
-\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
-
-\newcommand{\cvcolor}[1]{{\color{MidnightBlue}#1}}
-\renewcommand{\hl}[1]{\cvcolor{\textbf{#1}}}
-\renewcommand{\cite}[2]{\href{#2}{\ul{#1}} \footnote{\href{#2}{#2}}}
-
-% No page nums
-\pagenumbering{gobble}
 
 \begin{document}
-%%%%% TITLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent
-\begin{minipage}{0.675\linewidth}
-  % \vspace{0.5em}
-  {
-    \fontsize{40pt}{50pt}\selectfont
-    \noindent
-    Tyler I. Cecil
-  }\\
-  {\Large \color{darkgray}
-    {
-      \fontsize{16pt}{20pt}\selectfont
-      \noindent
-      For the position of "POSITION" at COMPANY
-    }
-  }
-\end{minipage}
-\hfill
-{
-  \fontsize{10pt}{13pt}\selectfont
-  \begin{tabular}{|rl}
-    \href{tel:+1 (913) 403 - 6230}{+1 (913) 403 - 6230}&\cvcolor{\faPhone} \\
-    \href{mailto:tyler.i.cecil@gmail.com}{tyler.i.cecil@gmail.com}&\cvcolor{\faEnvelope} \\
-    \href{https://www.linkedin.com/in/tyler-cecil/}{in/tyler-cecil}&\cvcolor{\faLinkedinSquare} \\
-    \href{https://tylercecil.com}{https://tylercecil.com}&\cvcolor{\faGlobe} \\
-    % English, German & \cvcolor{\faLanguage} \\
-  \end{tabular}
-  }
-
-\vspace{0.5em}
-\noindent\hrulefill
-\vspace{1em}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeheader{For the position of "Senior Software Engineer" at Zitara}
 
 \begin{adjustwidth}{40pt}{40pt}
 
@@ -122,9 +63,10 @@
     %   you have the makings of an exceptional engineer to be employed at a
     %   data-first company."
 
-    \item My research blog \cite{dives into statistics}{https://link.com}, one
-      of my biggest value-adds. Comfortable with the tools of Data Science, I
-      was about to build a pipeline translating release, usage, and profiling
+    \item My research blog \cite{dives into
+      statistics}{https://tylercecil.com/posts/2020/05/10/bessel.html}, one of
+      my biggest value-adds. Comfortable with the tools of Data Science, I was
+      about to build a pipeline translating release, usage, and profiling
       statistics into real knowledge at Google Cloud.
 
     \item Working at an Observatory required collaborating with instrument
@@ -142,25 +84,19 @@
   \end{itemize} \medskip
 
   \hl{Making a pivot to the environment} is an important career change for me,
-  and I see COMPANY as a place where I can do that --- somewhere I can make a
-  positive impact and grow.
+  and I see COMPANY as a place where I can do that --- somewhere I can be
+  motivated by my positive impact and grow as a developer.
   \begin{itemize}
-    \item My time away from engineering was spent as a high school tutor, which
-      opened my eyes to how much working at a mission-oriented organization
-      means to me.
-    \item Being mission oriented, to me, means tackling the problems that
-      really matter. I want to be working at the forefront of the climate
-      crisis, using my skills as an engineer to make an impact on the world.
-    \item I'm excited to work at a data-first company, and hope to grow not
-      just as an engineer, but to begin to specialize more in Data.
+    \item Working at a mission-oriented organization is incredibly important
+      to me, as I learned during my time away from engineering, spent as a
+      high school tutor.
 
-    %   I also thrive working face to
-    %   face, and seeing the ways my work actually effects others. Throughout my
-    %   careers, it has been that face-to-face time I've found most rewarding.
-    %   For example, the peer bonuses I've received at Google for developing
-    %   stateless, FP inspired configuration systems for the GCP networking stack
-    %   made me really feel like I was making others (my fellow engineers) lives
-    %   better. I want to chase that feeling.
+    \item I want to be at the forefront of climate solutions, tackling problems
+      that really matter. THE WORK AT COMPANY WORKS WITH ME
+
+    \item I'm excited to work at a data-first company, and hope to grow not
+      just as an engineer, but to begin to specialize more in Data. I SEE STUFF
+      AT COMPANY.
   \end{itemize} \medskip
 
   %  I am not a traditional applicant for this position; I have an eclectic

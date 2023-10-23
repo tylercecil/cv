@@ -1,13 +1,15 @@
 PDF_VIEWER := zathura
+COVER      := coverletter-tyler-cecil.pdf
 
-all: cover.pdf
+all: $(COVER)
 
-cover.pdf: cover.tex tc_cv.cls
+$(COVER): cover.tex tc_cv.cls
 	rubber --pdf cover.tex
+	mv cover.pdf $(COVER)
 
 watch:
 	make all
-	$(PDF_VIEWER) cover.pdf&
+	$(PDF_VIEWER) $(COVER)&
 	while true; do \
 		make all; \
 		inotifywait -qre close_write ../; \

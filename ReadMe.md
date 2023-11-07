@@ -7,6 +7,9 @@
 ### Build Targets
 * cv.pdf
 
+### Git
+Applications for older positions are stored as tags in this repository.
+
 ### Todo
 - [ ] YAML schema validator?
 - [ ] Look into json-resume, as a possible validator

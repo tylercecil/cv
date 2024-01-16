@@ -103,7 +103,7 @@
     \end{tabular}
   }
 
-  \vspace{0.5em}
+  \vspace{0.25em}
   \noindent\hrulefill
   \vspace{1em}
   }
